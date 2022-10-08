@@ -819,13 +819,15 @@ text-decoration-color: #2196F3;*/
     color: rgba(117, 117, 117, 0.5);
 }
 
+.modal
 
 .modal-form-check:checked + .modal-form-check-desc::before {
-    background-image: url(./images/icon_check.svg);
-}
+    border-color: var(--ternary-color);
+    background-color: var(--ternary-bacground);
+    background-image: url('../images/icon_check.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 
-.modal-form-check:focus + .modal-form-check-desc::before {
-    outline: 2px solid rgba(33, 150, 243, 1);
 }
 
 .modal-form-check-desc {
