@@ -1232,7 +1232,7 @@ input[type='checkbox']:checked + label .checkbox-svg {
   width: 100vw;
   height: 100vh;
   background-color: var(--color-white-background);
-  padding: 72px 16px 24px;
+  padding: 72px 24px 40px 24px;
   display: flex;
   flex-direction: column;
   transition: transform var(--transition);
@@ -1313,12 +1313,8 @@ input[type='checkbox']:checked + label .checkbox-svg {
 }
 
 .social-mobile {
-  margin-left: 16px;
-}
-
-.social-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 40px;
 }
