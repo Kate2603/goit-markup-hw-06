@@ -134,13 +134,6 @@ button {
   }
 }
 
-@media only screen and (min-width: 1158px) {
-  .header-container {
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-}
-
 .header-nav {
   display: flex;
   align-items: center;
